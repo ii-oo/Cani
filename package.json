@@ -1,0 +1,26 @@
+{
+  "name": "Cani",
+  "version": "0.0.1",
+  "description": "Gestionnaire de tâches",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "lite-server",
+    "dev": "grunt && grunt dev",
+    "start": "concurrently \"npm run dev\" \"npm run serve"
+  },
+  "author": "[io]",
+  "license": "MIT",
+  "dependencies": {
+    "angular": "^1.6.7",
+    "concurrently": "^3.5.1",
+    "grunt": "^1.0.1",
+    "grunt-contrib-cssmin": "^2.2.1",
+    "grunt-contrib-watch": "^1.0.0"
+  },
+  "devDependencies": {
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-uglify": "^3.2.1",
+    "lite-server": "^2.3.0"
+  }
+}
